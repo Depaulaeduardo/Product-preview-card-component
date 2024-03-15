@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+
+  box-sizing: border-box;
+
+  font-optical-sizing: auto;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  min-height: 100vh;
+  display: flex; /*  também funciona com grid  */
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#container {
+  background: #f2eae2;
+  width: 375px;
+  height: fit-content;
+  display: block;
+  padding: 26px 16px;
+  justify-content: center;
+  align-items: center;
+}
+
+.row {
+  background: white;
+  width: 343px;
+  height: fit-content;
+  border-radius: 8px;
+}
+
+img {
+  width: 343px;
+  height: 240px;
+}
+
+h1 {
+  color: #6c7289;
+  font-size: 12px;
+  word-spacing: 5px;
+  text-transform: uppercase;
+  font-family: "Montserrat";
+  font-weight: 700;
+  padding: 24px 0 0 24px;
+}
+
+h2 {
+  font-family: "fraunces";
+  font-weight: 700;
+  font-size: 32px;
+  color: #1c232b;
+  padding: 12px 24px 0 24px;
+}
+
+p {
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 14px;
+  color: #6c7289;
+  padding: 12px 24px 0 24px;
+  line-height: 1.6;
+}
+
+ul {
+  width: 194px;
+  display: flex;
+  margin-left: 24px;
+  gap: 19px;
+  align-items: center;
+  justify-content: center;
+}
+
+.discount {
+  color: #3d8168;
+  font-size: 32px;
+  font-family: "fraunces";
+  font-weight: 700;
+}
+
+.price {
+  font-family: "Montserrat";
+  font-size: 13px;
+  text-decoration: line-through;
+}
+
+.hover {
+  width: 295px;
+  margin: 24px;
+  padding: 15px 85px;
+  background: #3d8168;
+  border-radius: 8px;
+  word-spacing: 8px;
+}
+.botao {
+  background: transparent;
+  font-family: "Montserrat";
+  font-size: 14px;
+  color: white;
+  font-weight: 600;
+  border-color: transparent;
+}
+
+.icon {
+  text-align: justify;
+  width: 15px;
+  height: 16px;
+}
+
+
