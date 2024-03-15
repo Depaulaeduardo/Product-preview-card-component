@@ -32,11 +32,14 @@ body {
   width: 343px;
   height: fit-content;
   border-radius: 8px;
+  padding-bottom: 10px;
 }
 
 img {
   width: 343px;
   height: 240px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
 }
 
 h1 {
@@ -73,6 +76,7 @@ ul {
   gap: 19px;
   align-items: center;
   justify-content: center;
+  padding-top: 24px;
 }
 
 .discount {
@@ -95,6 +99,7 @@ ul {
   background: #3d8168;
   border-radius: 8px;
   word-spacing: 8px;
+  margin-bottom: 20px;
 }
 .botao {
   background: transparent;
