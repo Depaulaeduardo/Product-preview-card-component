@@ -11,27 +11,21 @@
 
 body {
   min-height: 100vh;
-  display: flex; /*  também funciona com grid  */
+  display: block; /*  também funciona com grid  */
   justify-content: center;
   align-items: center;
   background: #f2eae2;
   width: 375px;
-  height: fit-content;
-  display: block;
-  padding: 28px 16px;
-  justify-content: center;
-  
-}
+  min-height: 611px;
 
- 
+  padding: 28px 16px;
+}
 
 .row {
   background: white;
   width: 343px;
-  height: fit-content;
+  height: 630px;
   border-radius: 8px;
-  padding-bottom: 10px;
-  
 }
 
 .perfume {
@@ -41,22 +35,30 @@ body {
   border-top-right-radius: 8px;
 }
 
+.item {
+  width: 343px;
+  height: fit-content;
+  padding: 24px;
+}
+
 h1 {
   color: #6c7289;
   font-size: 12px;
-  word-spacing: 5px;
+  letter-spacing: 3px;
   text-transform: uppercase;
   font-family: "Montserrat";
-  font-weight: 700;
-  padding: 24px 0 0 24px;
+  font-weight: 500;
+  margin-bottom: 12px;
 }
 
 h2 {
+  width: 295px;
+  height: fit-content;
   font-family: "fraunces";
   font-weight: 700;
   font-size: 32px;
   color: #1c232b;
-  padding: 12px 24px 0 24px;
+  margin-bottom: 16px;
 }
 
 p {
@@ -64,18 +66,18 @@ p {
   font-weight: 500;
   font-size: 14px;
   color: #6c7289;
-  padding: 12px 24px 0 24px;
+  margin-bottom: 24px;
   line-height: 1.6;
 }
 
 ul {
   width: 194px;
   display: flex;
-  margin-left: 24px;
+
   gap: 19px;
   align-items: center;
-  justify-content: center;
-  padding-top: 24px;
+
+  margin-bottom: 20px;
 }
 
 .discount {
@@ -93,12 +95,15 @@ ul {
 
 .hover {
   width: 295px;
-  margin: 24px;
-  padding: 15px 85px;
+  height: 48px;
+
   background: #3d8168;
   border-radius: 8px;
   word-spacing: 8px;
-  margin-bottom: 20px;
+  margin-bottom: 24px;
+  text-align: center;
+  justify-content: center;
+  padding: 15px 0;
 }
 .botao {
   background: transparent;
@@ -115,25 +120,15 @@ ul {
   height: 16px;
 }
 
-
-
-
 @media screen and (min-width: 600px) {
   body {
-    
     background: #f2eae2;
     display: grid;
     justify-content: center;
     background: #f2eae2;
     width: 100%;
     padding: 175px 420px;
-    
-       
-  
-   
   }
-
-  
 
   .row {
     display: grid;
@@ -141,7 +136,6 @@ ul {
     width: 600px;
     height: 450px;
     justify-content: center;
-    
   }
 
   .perfume {
@@ -151,37 +145,31 @@ ul {
     border-radius: 8px 0 0 8px;
   }
 
-   
-    
-    
-  }
-
   .item {
     width: 300px;
     height: fit-content;
   }
 
+  h1 {
+    width: 100%;
+  }
+
+  h2 {
+    width: 100%;
+  }
+
   .hover {
-    width: 250px;
-    height: 48px;
+    width: 100%;
+
     display: flex;
     justify-content: center;
-    
+
     padding: 15px 40px;
-   
   }
   .hover .item {
     margin-right: 7px;
   }
-
-  footer {
-    font-size: 11px;
-    text-align: center;
-    justify-content: center;
-    width: 600px;
-    display: flex;
-  }
-  .attribution a {
-    color: hsl(228, 45%, 44%);
-
-  }
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
