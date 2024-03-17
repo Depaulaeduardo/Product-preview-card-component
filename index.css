@@ -93,7 +93,7 @@ ul {
   text-decoration: line-through;
 }
 
-.hover {
+.grupo5 {
   width: 295px;
   height: 48px;
 
@@ -105,6 +105,7 @@ ul {
   justify-content: center;
   padding: 15px 0;
 }
+
 .botao {
   background: transparent;
   font-family: "Montserrat";
@@ -158,18 +159,19 @@ ul {
     width: 100%;
   }
 
-  .hover {
+  .grupo5 {
     width: 100%;
 
     display: flex;
     justify-content: center;
-
+    cursor: pointer;
     padding: 15px 40px;
   }
-  .hover .item {
+  button .item {
     margin-right: 7px;
   }
-}
-.attribution a {
-  color: hsl(228, 45%, 44%);
+
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
 }
